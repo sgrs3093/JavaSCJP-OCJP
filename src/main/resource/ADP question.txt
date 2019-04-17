@@ -1,0 +1,48 @@
+priorityqueue - peek and poll
+welcome to app .o/p : app to welcome 
+3)count the last word of string : 
+hi i am 5000 ajay . output : ajay length is 4 
+5) comparator predefiend method 
+6)type_forward_only type in jdbc .
+7) JDBC using which design pattern 
+8) oops main principle 
+9) serialzable class example 
+10) transient keyword while saving object in file 
+11) hashset internal using which data structure 
+12) volatile key word use
+13) interface contain which method 
+14) getsession() method present in which class 
+15) WeekHashmap example 
+16) private boolean enable ; write accessor method for this 2 
+Ans ;public boolean isEnable() {
+		return enable;
+	}
+
+	public void setEnable(boolean enable) {
+		this.enable = enable;
+	}
+
+public class HashMapExp {
+	private boolean enable;
+
+	public boolean isEnable() {
+		return enable;
+	}
+
+	public void setEnable(boolean enable) {
+		this.enable = enable;
+	}
+
+	public static void main(String[] args) {
+
+		WeakHashMap<String, String> wh = new WeakHashMap<String, String>();
+		String key = new String();
+		wh.put(key, "hi");
+		key = null;
+		System.gc();
+		System.out.println(wh.get(key));//  output : null
+
+	}
+}
+
+17) servlet artifact while deploying to servlet container . what is the artifact 
