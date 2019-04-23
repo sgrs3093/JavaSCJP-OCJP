@@ -46,3 +46,32 @@ public class HashMapExp {
 }
 
 17) servlet artifact while deploying to servlet container . what is the artifact 
+18) type safe question : generic are type safe
+19) hashtable hashmap and cocurrenthashmap difference
+20) stringbuffer builder and string diff
+
+
+Mphasis
+----
+1)hashmap internal 
+2)priorityqueue
+3)service discovery in microservices 
+4)Docker
+5)what is microservices 
+6)how you manage your security in microservices 
+7) load balancing in microserivces 
+8)schedular in cocurrency thread java
+9)arraylist contain duplicates how you check how many douplicated available in list
+10) bean scope in spring how to make 2 diff hashcode in bean 
+11) accociation and aggregation in java 
+12)
+
+DST
+----
+Finding 3rd highest salary 
+how to make beans as singlton
+what is servlet 
+how to create servlet from generic servlet and httpservlet 
+inner bean in spring 
+@repository what other things we need to add to automatic bean creation when we 
+add @Repository 
