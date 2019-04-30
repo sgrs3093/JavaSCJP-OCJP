@@ -3,6 +3,7 @@ package com.sgr.logicalprogram;
 public class LengthOfLastWordInString {
 
 	public static void main(String[] args) {
+		String s="Welcome to ADP";
 		System.out.println("Length is : " + findingLastStringWordLength("Wlcom to UHG"));
 	}
 

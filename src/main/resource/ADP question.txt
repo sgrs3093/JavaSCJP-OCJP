@@ -1,17 +1,21 @@
-priorityqueue - peek and poll
+priorityqueue - peek and poll : The peek() method only retrieved the element at the head but 
+the poll() also removes the element along with the retrieval. A PriorityQueue is used when the objects are supposed to be processed based on the priority.
+ It is known that a queue follows First-In-First-Out algorithm
 welcome to app .o/p : app to welcome 
 3)count the last word of string : 
 hi i am 5000 ajay . output : ajay length is 4 
-5) comparator predefiend method 
-6)type_forward_only type in jdbc .
-7) JDBC using which design pattern 
-8) oops main principle 
+5) comparator predefiend method , public int compare(T o1, T o2);
+6)type_forward_only type in jdbc . ResultSet.TYPE_FORWARD_ONLY -The cursor can only move forward in the result set.
+	ResultSet.TYPE_SCROLL_INSENSITIVE -he cursor can scroll forward and backward, and the result set is not sensitive to changes made by others to the database that occur after the result set was created
+	ResultSet.TYPE_SCROLL_SENSITIVE.- The cursor can scroll forward and backward, and the result set is sensitive to changes made by others to the database that occur after the result set was created
+7) JDBC using which design pattern  : Bridge Design, Static factory method ,Transactional pattern ,Proxy 
+8) oops main principle : encapsulation, inheritence, polymorphism, abstraction 
 9) serialzable class example 
-10) transient keyword while saving object in file 
-11) hashset internal using which data structure 
-12) volatile key word use
-13) interface contain which method 
-14) getsession() method present in which class 
+10) transient keyword while saving object in file : it will not store transient value in file , it will store default value while doing serialization
+11) hashset internal using which data structure : ds is HAshtable that is HAshMAp instance 
+12) volatile key word use : yet another way to make class as thread safe like synchronized
+13) interface contain which method : abstract method 
+14) getsession() method present in which class  : HTTPSession 
 15) WeekHashmap example 
 16) private boolean enable ; write accessor method for this 2 
 Ans ;public boolean isEnable() {
@@ -23,15 +27,7 @@ Ans ;public boolean isEnable() {
 	}
 
 public class HashMapExp {
-	private boolean enable;
-
-	public boolean isEnable() {
-		return enable;
-	}
-
-	public void setEnable(boolean enable) {
-		this.enable = enable;
-	}
+	
 
 	public static void main(String[] args) {
 
@@ -48,7 +44,7 @@ public class HashMapExp {
 17) servlet artifact while deploying to servlet container . what is the artifact 
 18) type safe question : generic are type safe
 19) hashtable hashmap and cocurrenthashmap difference
-20) stringbuffer builder and string diff
+20) stringbuffer builder and string diff : StringBuilder : not thread safe ,StringBuffer : synchronized thread safe , String - immutable so therad safe 
 
 
 Mphasis
@@ -75,3 +71,64 @@ how to create servlet from generic servlet and httpservlet
 inner bean in spring 
 @repository what other things we need to add to automatic bean creation when we 
 add @Repository 
+
+Prokarma
+-----------
+
+What is microservices
+what is stream api
+how u talk to db in spring boot 
+how u handle security
+what is differnnce between spring rest and normal rest
+what is java 8 feature 
+how 2 microservices talk each other 
+what is spring boot 
+what is differnce between spring boot and spring 
+how you write query in repository class 
+what is difference between native and sql query 
+what is lamda expression 
+how you expose your microservices 
+what is parent controller in your microservice 
+how you manage other dependency in your project 
+
+
+Altimatrix 
+------------------------
+1) String permutaion 
+abc = ca bac 
+2) nth element of list find out with out java code 
+3) build your own stack and reverse the string useing stack 
+4) in array find one element if you find return true if value is present else 0
+5) 
+
+Oracle Question :
+----------------
+1+1=2
+2+2=4
+4+1=5
+5+5=10
+10+10=20
+10+1=11;
+11+1=12;
+12+12=24;
+24+1=25
+25+25=50
+50+50=100
+100+100=200
+
+
+Infy
+--------
+Rest and microservices difference
+what is spring boot 
+what is MS.
+how you build your own ArrayList.
+what is @Profile and @Conditional Annotaion in Spring 
+what is 
+
+
+
+
+
+
+
